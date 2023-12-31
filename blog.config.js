@@ -204,18 +204,18 @@ const BLOG = {
   MUSIC_PLAYER_AUDIO_LIST: [
     // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档 https://aplayer.js.org/#/zh-Hans/
     {
-      name: '风を共に舞う気持ち',
+      name: '心淡',
       artist: 'Falcom Sound Team jdk',
-      url: 'https://music.163.com/song/media/outer/url?id=731419.mp3',
+      url: 'https://m701.music.126.net/20231231155200/387cf679a79317deb8b06205b3edb10c/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/11794705657/cb7d/1ad3/6a37/e2520588eb67b0710d9e0422c566d588.mp3',
       cover:
-            'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+            'https://p3.music.126.net/4VieTORK0uoITPFlZyzJrQ==/109951166656376814.jpg?param=300y300'
     },
     {
-      name: '王都グランセル',
+      name: '再见我的初恋+痛爱+逃避你+谁来爱我+损友+抱抱+想得太远+习惯失恋+一拍两散+心淡(Live) ',
       artist: 'Falcom Sound Team jdk',
-      url: 'https://music.163.com/song/media/outer/url?id=731355.mp3',
+      url: 'https://m701.music.126.net/20231231155457/1aafdf80b66c3dc54efdb8dd6c9cd851/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/11780614473/e626/333e/e840/5ce9a8177b46dcc55b6cfff55e2aa68a.mp3',
       cover:
-            'https://p1.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+            'https://p3.music.126.net/KnaQQt0Vp00K4fbPSNraAQ==/109951166656571377.jpg?param=300y300'
     }
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
